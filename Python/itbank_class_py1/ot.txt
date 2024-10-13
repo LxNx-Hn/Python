@@ -1,0 +1,7 @@
+1차시  OT
+이름 : 김혜린
+mail : apeach_9@naver.com 
+
+못오거나 할때 메일제목 
+-> python 1 10월 평일 / 9시 "이름"
+
