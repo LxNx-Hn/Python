@@ -48,11 +48,18 @@ farenheit=celcius*1.8+32
 print("{:.2f}°F".format(farenheit)) """
 #celcius : float로 변수정의를 하면 왜 아래쪽에서 에러가 뜰까..
 #celcius:float=input() <- 실수형 선언후 스트링값을 집어넣었기때문?
+#파이썬에서는 자료형지정이 완벽하지않아서, 실수로 선언했지만 스트링값을 넣으면 스트링값이 된다.
 #파이썬에서 .2f등으로 소수점 자리를 줄이면 반올림한다
 
 #세자리수입력후 각 자리수 출력
-num=int(input())
-print("{}".format(num-(num//10*10)))
-print("{}".format(num-(num//100*100)))
-print(num)
+""" num=int(input())
+num1 = num%10
+num2 = num%100
+num3 = num%1000
+print("{}".format(num1))
+print("{}".format(num2))
+print(num3)
+print(num1)
+print(num2//10)
+print(num3//100) """
 # // =몫 , %=나머지 , / = 실수형태로 나누기 
