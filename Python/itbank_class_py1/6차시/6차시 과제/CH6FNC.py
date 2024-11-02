@@ -216,7 +216,7 @@ def Q12():
     print(output)
 """ for i in range(10,9,-1):
     print("*") """
-Q12()
+
 def ex():
     st="It is a fun Python class"
     a_cnt,s_cnt=0,0
@@ -231,3 +231,16 @@ def ex():
         except StopIteration:
             break
     print("a의 개수는{}개, s의 개수는{}개 입니다.".format(a_cnt,s_cnt))
+def Q13():
+    # 별 피라미드 만들기
+    leng=int(input("높이를 입력해주세요"))
+    for i in range(leng+1):
+        output=""
+        #높이 5 -> 별= 13579일때 높이 *2-1만큼이 최종별의개수
+        #51 43 35 27 19
+        for j in range(leng,i,-1):
+            output+=" "
+        for j in range(i*2-1):
+            output+="*"
+            pass
+        print(output)
