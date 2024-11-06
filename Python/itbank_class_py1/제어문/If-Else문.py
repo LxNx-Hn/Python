@@ -1,21 +1,3 @@
-#여러 실행단위 코드를 짜면 주석처리하기 귀찮으니 함수로 해보기
-#제발 깃허브 공부하기 제발... 기본용어같은거 정리한번 해야할듯 
-""" def birth():
-    try:
-        birth=int(input()) #00000000
-    except ValueError:
-        print('유효한 값을 입력해주세요')
-    else:
-        if birth>=10000000 and birth<=99999999:
-            year= birth//10000
-            day=birth%100
-            month=(birth%10000)//100
-            print(year,month,day)
-        else:
-            print('유효한 값을 입력해주세요')
-birth() """
-#기준점을 잡고 몇으로 나눌지 정한뒤 왼쪽값=// 오른쪽값= %
-
 #제어문(조건문,반복문)
 #조건문 : 주어진 조건에 맞는 구문이 실행된다(ifelse)
 #반복문 : 주어진 횟수만큼 반복(for,while)

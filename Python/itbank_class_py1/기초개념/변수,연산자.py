@@ -85,3 +85,20 @@ print(num1)
 print(num2//10)
 print(num3//100) """
 # // =몫 , %=나머지 , / = 실수형태로 나누기 
+#여러 실행단위 코드를 짜면 주석처리하기 귀찮으니 함수로 해보기
+#제발 깃허브 공부하기 제발... 기본용어같은거 정리한번 해야할듯 
+""" def birth():
+    try:
+        birth=int(input()) #00000000
+    except ValueError:
+        print('유효한 값을 입력해주세요')
+    else:
+        if birth>=10000000 and birth<=99999999:
+            year= birth//10000
+            day=birth%100
+            month=(birth%10000)//100
+            print(year,month,day)
+        else:
+            print('유효한 값을 입력해주세요')
+birth() """
+#기준점을 잡고 몇으로 나눌지 정한뒤 왼쪽값=// 오른쪽값= %
